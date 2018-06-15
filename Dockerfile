@@ -38,11 +38,11 @@ USER $USER
 
 WORKDIR /home/$USER
 
-RUN wget https://dl.google.com/dl/android/studio/ide-zips/2.3.3.0/android-studio-ide-162.4069837-linux.zip
-RUN unzip android-studio-ide-162.4069837-linux.zip
-RUN rm android-studio-ide-162.4069837-linux.zip
+RUN wget https://dl.google.com/dl/android/studio/ide-zips/3.0.1.0/android-studio-ide-171.4443003-linux.zip
+RUN unzip android-studio-ide-171.4443003-linux.zip
+RUN rm android-studio-ide-171.4443003-linux.zip
 
-RUN ln -s /studio-data/profile/AndroidStudio2.3 .AndroidStudio2.3
+RUN ln -s /studio-data/profile/AndroidStudio3.0 .AndroidStudio3.0
 RUN ln -s /studio-data/profile/android .android
 RUN ln -s /studio-data/profile/java .java
 RUN ln -s /studio-data/profile/gradle .gradle

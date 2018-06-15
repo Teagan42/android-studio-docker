@@ -1,1 +1,1 @@
-docker build -t deadolus/android-studio .
+docker build -t teagan42/android-studio:3.0 .
